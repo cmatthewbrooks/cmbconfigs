@@ -7,14 +7,6 @@
 
 COMMENT1
 
-DEV="${HOME}/dev"
-REPO=$PWD
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
-exclude=("README.md" "install.sh")
-
-for item in $(ls)
-do
-    if [[ ! " ${exclude[@]} " =~ " ${item} " ]]; then
-        echo $item
-    fi
-done
+cp "$SCRIPTPATH/tmux.conf" "$HOME/.tmux.conf"
