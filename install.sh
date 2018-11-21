@@ -10,3 +10,4 @@ COMMENT1
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
 cp "$SCRIPTPATH/tmux.conf" "$HOME/.tmux.conf"
+cp "$SCRIPTPATH/radare2rc" "$HOME/.radare2rc"
