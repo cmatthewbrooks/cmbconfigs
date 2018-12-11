@@ -9,7 +9,10 @@ COMMENT1
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
+cp "$SCRIPTPATH/bashrc" "$HOME/.bashrc"
+cp "$SCRIPTPATH/bash_aliases" "$HOME/.bash_aliases"
 cp "$SCRIPTPATH/tmux.conf" "$HOME/.tmux.conf"
 cp "$SCRIPTPATH/radare2rc" "$HOME/.radare2rc"
-cp "$SCRIPTPATH/bash_aliases" "$HOME/.bash_aliases"
 cp "$SCRIPTPATH/vimrc" "$HOME/.vimrc"
+
+source "$HOME/.bashrc"
