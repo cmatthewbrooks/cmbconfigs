@@ -14,5 +14,6 @@ cp "$SCRIPTPATH/bash_aliases" "$HOME/.bash_aliases"
 cp "$SCRIPTPATH/tmux.conf" "$HOME/.tmux.conf"
 cp "$SCRIPTPATH/radare2rc" "$HOME/.radare2rc"
 cp "$SCRIPTPATH/vimrc" "$HOME/.vimrc"
+cp "$SCRIPTPATH/bash_profile" "$HOME/.bash_profile"
 
 source "$HOME/.bashrc"
