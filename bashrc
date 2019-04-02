@@ -126,3 +126,5 @@ fi
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/dev
 source ~/.local/bin/virtualenvwrapper.sh
+
+export PYTHONDONTWRITEBYTECODE=1
